@@ -8,7 +8,7 @@
 
 #include <WiFiClientSecureBearSSL.h>
 // Fingerprint for demo URL, expires on June 2, 2021, needs to be updated well before this date
-const char* fingerprint = "Add SH1 fingerprint of the AWS Lambds API URL";
+const char* fingerprint = "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"; // Add SH1 fingerprint of the AWS Lambds API URL
 
 ESP8266WiFiMulti WiFiMulti;
 
